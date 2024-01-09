@@ -31,7 +31,7 @@ def showStatus():
 
 
 # an inventory, which is initially empty
-inventory = []
+inventory = ['broadsword']
 
 ## A dictionary linking a room to other rooms
 rooms = {
@@ -116,7 +116,7 @@ while True:
         if 'broadsword' in inventory:
             print("You decapitate the fearsome monster with your broadsword! Glorious Day!")
             # Remove the monster from the room's item list
-            del rooms[currentRoom]['item'][0]
+            rooms['Kitchen']['item'].remove('monster')
         else:
             print("You get mauled to death :(")
             break
