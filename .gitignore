@@ -1,5 +1,5 @@
 echo "*.log" >> ~/mycode/.gitignore
 echo "*.key" >> ~/mycode/.gitignore
 echo "id_rsa*" >> ~/mycode/.gitignore
-echo "nasa.creds" >> ~/mycode/.gitignore
-echo ".env" >> ~/mycode/.gitignore
+/home/student/mycode/nasa.creds
+/home/student/mycode/.env
